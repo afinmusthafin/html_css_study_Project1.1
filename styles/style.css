@@ -1,1 +1,23 @@
-
+body {
+	font-size: 16px;
+	font-weight: 400px;
+	line-height: 1.5;
+}
+/* Reset style */
+* {
+	margin: 0;
+	padding: 0;
+}
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+#Banner {
+	background: url(../images/banner.jpg)no-repeat 0 0 / cover;
+	height: 630px;
+	position: relative;
+}
