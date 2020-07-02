@@ -1,1 +1,37 @@
+@media (min-width: 1700px) {
+  
+}
 
+/*mobile styles*/
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #Header {
+    padding: 16px 0;
+  }
+  #Header .logo a img {
+    width: 60px;
+  }
+  #Header .menu-wrap {
+    padding-top: 3px;
+  }
+  #nav-icon1 {
+    width: 40px;
+    height: 30px;
+  }
+  #nav-icon1 span {
+    height: 3px;
+  }
+  #nav-icon1 span:nth-child(2) {
+    top: 12px;
+  }
+  #nav-icon1 span:nth-child(3) {
+    top: 23px;
+  }
+  #Banner {
+    height: 380px;
+  }
+
+  
+/* Tablet Portrait view */
+
+/*Tablet Landscape*/
